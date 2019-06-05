@@ -1,0 +1,23 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+?cars
+str(cars)
+```
+
+```{r}
+plot(cars)
+```
+
+```{r}
+data(mtcars)
+str(cars)
+
+subset(mtcars, mpg >= 30 | hp < 60)
+
+mtcars[mtcars$mpg >= 30 | mtcars$hp <60, ]
+```
+
